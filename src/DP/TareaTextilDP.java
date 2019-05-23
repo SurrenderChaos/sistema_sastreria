@@ -86,8 +86,6 @@ public class TareaTextilDP {
         return ttmd.verificar();
     }
 
-    
-
     @Override
     public String toString() {
         return "TareaTextilDP{" + "codigoTarea=" + codigoTarea + ", fechaLimiteTarea=" + fechaLimiteTarea + ", tipoTarea=" + tipoTarea + ", descripcionTarea=" + descripcionTarea + '}';
