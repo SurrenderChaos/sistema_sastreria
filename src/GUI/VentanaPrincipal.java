@@ -88,7 +88,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu3);
 
-        jMenu4.setText("Asignación");
+        jMenu4.setText("Proceso");
         jMenuBar1.add(jMenu4);
 
         setJMenuBar(jMenuBar1);

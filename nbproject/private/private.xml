@@ -3,10 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Documentos/NetBeansProjects/sistema_sastreria/src/GUI/VentanaAsignacionTareas.java</file>
-            <file>file:/D:/Documentos/NetBeansProjects/sistema_sastreria/src/MD/TareaTextilMD.java</file>
-            <file>file:/D:/Documentos/NetBeansProjects/sistema_sastreria/src/DP/SastreDP.java</file>
-            <file>file:/D:/Documentos/NetBeansProjects/sistema_sastreria/src/DP/AsignacionDP.java</file>
+            <file>file:/E:/Documentos/quinto/is/proyecto/Manejo_Sastreria/Sastreria/src/DP/TareaTextilDP.java</file>
+            <file>file:/E:/Documentos/quinto/is/proyecto/Manejo_Sastreria/Sastreria/src/GUI/VentanaConsultaTareasTextiles.java</file>
+            <file>file:/E:/Documentos/quinto/is/proyecto/Manejo_Sastreria/Sastreria/src/GUI/VentanaAsignacionTareas.java</file>
+            <file>file:/E:/Documentos/quinto/is/proyecto/Manejo_Sastreria/Sastreria/src/GUI/ConsultaAsignacion.java</file>
+            <file>file:/E:/Documentos/quinto/is/proyecto/Manejo_Sastreria/Sastreria/src/DP/AsignacionDP.java</file>
+            <file>file:/E:/Documentos/quinto/is/proyecto/Manejo_Sastreria/Sastreria/src/MD/AsignacionMD.java</file>
+            <file>file:/E:/Documentos/quinto/is/proyecto/Manejo_Sastreria/Sastreria/src/GUI/VentanaAdminstracionTareasTextiles.java</file>
+            <file>file:/E:/Documentos/quinto/is/proyecto/Manejo_Sastreria/Sastreria/src/GUI/VentanaConsultaSastre.java</file>
+            <file>file:/E:/Documentos/quinto/is/proyecto/Manejo_Sastreria/Sastreria/src/GUI/VentanaPrincipal.java</file>
+            <file>file:/E:/Documentos/quinto/is/proyecto/Manejo_Sastreria/Sastreria/src/MD/TareaTextilMD.java</file>
         </group>
     </open-files>
 </project-private>

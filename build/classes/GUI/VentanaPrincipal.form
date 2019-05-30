@@ -60,7 +60,7 @@
         </Menu>
         <Menu class="javax.swing.JMenu" name="jMenu4">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Asignaci&#xf3;n"/>
+            <Property name="text" type="java.lang.String" value="Proceso"/>
           </Properties>
         </Menu>
       </SubComponents>

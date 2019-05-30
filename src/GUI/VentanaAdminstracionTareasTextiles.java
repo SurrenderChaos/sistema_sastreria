@@ -69,6 +69,12 @@ public class VentanaAdminstracionTareasTextiles extends javax.swing.JFrame {
             }
         });
 
+        tf_fechatt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_fechattActionPerformed(evt);
+            }
+        });
+
         tf_tipott.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tf_tipottActionPerformed(evt);
@@ -113,12 +119,13 @@ public class VentanaAdminstracionTareasTextiles extends javax.swing.JFrame {
                                     .addComponent(jLabel4)))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(79, 79, 79)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(bt_eliminartt)
-                                    .addComponent(bt_guardartt))))
+                                .addComponent(bt_guardartt)))
                         .addGap(32, 32, 32)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(bt_cancelartt)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(bt_cancelartt)
+                                .addGap(83, 83, 83)
+                                .addComponent(bt_eliminartt))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(tf_destt, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -156,10 +163,9 @@ public class VentanaAdminstracionTareasTextiles extends javax.swing.JFrame {
                 .addGap(55, 55, 55)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(bt_guardartt)
-                    .addComponent(bt_cancelartt))
-                .addGap(46, 46, 46)
-                .addComponent(bt_eliminartt)
-                .addContainerGap(85, Short.MAX_VALUE))
+                    .addComponent(bt_cancelartt)
+                    .addComponent(bt_eliminartt))
+                .addContainerGap(156, Short.MAX_VALUE))
         );
 
         pack();
@@ -230,6 +236,10 @@ public class VentanaAdminstracionTareasTextiles extends javax.swing.JFrame {
     private void tf_tipottActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_tipottActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_tf_tipottActionPerformed
+
+    private void tf_fechattActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_fechattActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_fechattActionPerformed
     private void limpiar(){
         this.tf_codtt.setText("");
         this.tf_destt.setText("");
